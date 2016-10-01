@@ -1,7 +1,77 @@
 <!DOCTYPE html>
 <html>
+<head>
+		<link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>IoT Projects, from PCBs to web servers</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<div class="header">
+		<div class="container">
+			<h1 class="header-heading">IoT Projects, from PCBs to web servers</h1>
+		</div>
+	</div>
+	<ul>
+		<li><a href="#H1"><h3>STM8 IoT Boards			 					 </h3></a></li>
+	</ul>
+	<ul style="margin-left: 10px">
+		<li><a href="#P1"><h4>IoT Node (RF but connected to Power)			 </h4></a></li>
+		<li><a href="#P2"><h4>Smart IoT Node (Wireless and Cell Coin Powered)</h4></a></li>
+		<li><a href="#P3"><h4>IO Expander									 </h4></a></li>
+		<li><a href="#P4"><h4>Servomotor Controller							 </h4></a></li>
+	</ul>
+	<hr>
+	<h1 id="H1">STM8 IoT Boards</h1>
+	<p><a href="https://github.com/wassfila/STM8_IoT_Boards" class="btn" target="_blank">Eagle Boards Designs on Github</a></p>
+	<p>This repository provides PCBs based on the STM8 which is the cheapest microcontroller on the market (Low and production volumes) with the cheapest debug and development environment.</p>
+	
+	<hr>
+	<h2 id="P1">IoT Node (RF but connected to Power)</h2>
+	<p>PCB design using the STM8S103F bread board with the nRF24L01+ module. Provides connectors for I&sup2C, UART and One wire.</p>
+	<table class="table table-striped" >
+		<tr>	<td><p><a href="http://www.homesmartmesh.com/mediawiki/index.php/IoT_Node" class="btn" target="_blank">Wiki - IoT Node</a></p>
+				</td>
+				<td><img class="img-big" src="images/IoT_Node_v1.jpg"	alt="IoT Node"></div></td>
+		</tr>
+		<tr>	<td><p><a href="https://github.com/wassfila/STM8_IoT_Base/tree/master/ws02_RF_ColorsBroadcast" class="btn" target="_blank">Github - RF RGB Colors Broadcast</a></p>
+				</td>
+				<td><iframe class="aspect" width=1000 height=450 src="https://www.youtube.com/embed/56Ujzbr5vak" allowfullscreen></iframe></td>
+		</tr>
+		<tr>	<td><p><a href="https://github.com/wassfila/STM8_IoT_HelloWorld/tree/master/06_RGBLeds_24bitParam" class="btn" target="_blank">Github - RGB 60 Leds WS2812B</a></p>
+				<td><iframe class="aspect" width=1000 height=450 src="https://www.youtube.com/embed/BuHAQE6NSPU" allowfullscreen></iframe></td>
+		</tr>
+	</table>
+	
+	<hr>
+	<h2 id="P2">Smart IoT Node (Wireless and Cell Coin Powered)</h2>
+	<p>This Board includes an STM8L151F3P6 (Low Power) the nRF24L01+, sensors modules : BMP280 (pressure, humidity, temperature), a MAX44009 (Ambient Light) and MRMS211H (Magnetic switches).</p>
+	<table class="table table-striped" >
+		<tr>	<td><p><a href="http://technolab.ddns.net/display/SSN/STM8L+Mobile+Node" class="btn" target="_blank">Wiki - Mobile Node</a></p>
+				</td>
+				<td><img class="img-big" src="images/IoT_Node_Mobile_v2.jpg"	alt="IoT Mobile Node"></div></td>
+		</tr>
+	</table>
+
+	<hr>
+	<h2 id="P3">IO Expander</h2>
+	<p>Serial port commands issued in an ULN2804 general purpose up to 48V or 500mA per output.</p>
+	<table class="table table-striped" >
+		<tr>	<td>
+					<p><a href="http://technolab.ddns.net/display/SSN/Smart+IO+Expander" class="btn" target="_blank">Wiki - IO Expander</a></p>
+					<p><a href="https://github.com/wassfila/smartio" class="btn" target="_blank">Github - nodejs</a></p>
+				</td>
+				<td><img class="img-big" src="images/IO_Expander.jpg"	alt="IoT Expander"></div></td>
+		</tr>
+	</table>
+	
+	<hr>
+	<h2 id="P4">Servomotor Controller</h2>
+	<p>This Board includes an STM8L151F3P6 (Low Power) the nRF24L01+, sensors modules : BMP280 (pressure, humidity, temperature), a MAX44009 (Ambient Light) and MRMS211H (Magnetic switches).</p>
+	<table class="table table-striped" >
+		<tr>	<td>
+					<p><a href="https://github.com/wassfila/joystick_servo" class="btn" target="_blank">Github - PS4 on RPi3</a></p>
+				</td>
+				<td><img class="img-big" src="images/Servo_Controller.jpg"	alt="Servo Controller"></div></td>
+		</tr>
+	</table>
+	
 </body>
 </html>
