@@ -144,14 +144,14 @@ Nav
 
 .nav a:hover
 {
-	color: white;
-	background-color: green;
+	color: black;
+	background-color: white;
 }
 
 .nav a:active
 {
 	color: white;
-	background-color: red;
+	background-color: grey;
 }
 
 /* -----------------------
