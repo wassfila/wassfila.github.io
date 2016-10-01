@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles.css">
+	<script src="format.js"></script>
 </head>
-<body>
+<body onresize="myFunction()">
 	<div class="header">
 		<div class="container">
 			<h1 class="header-heading">IoT Projects, from PCBs to web servers</h1>
@@ -30,14 +31,15 @@
 	<table class="table table-striped" >
 		<tr>	<td><p><a href="http://www.homesmartmesh.com/mediawiki/index.php/IoT_Node" class="btn" target="_blank">Wiki - IoT Node</a></p>
 				</td>
-				<td><img class="img-big" src="images/IoT_Node_v1.jpg"	alt="IoT Node"></div></td>
+				<td><img id="I1" class="img-big" src="images/IoT_Node_v1.jpg"	alt="IoT Node"></div></td>
 		</tr>
 		<tr>	<td><p><a href="https://github.com/wassfila/STM8_IoT_Base/tree/master/ws02_RF_ColorsBroadcast" class="btn" target="_blank">Github - RF RGB Colors Broadcast</a></p>
+				<p id="demo"></p>
 				</td>
-				<td><iframe class="aspect" width=1000 height=450 src="https://www.youtube.com/embed/56Ujzbr5vak" allowfullscreen></iframe></td>
+				<td><iframe id="F1" class="img-big" width=1600 height=650 src="https://www.youtube.com/embed/56Ujzbr5vak" allowfullscreen></iframe></td>
 		</tr>
 		<tr>	<td><p><a href="https://github.com/wassfila/STM8_IoT_HelloWorld/tree/master/06_RGBLeds_24bitParam" class="btn" target="_blank">Github - RGB 60 Leds WS2812B</a></p>
-				<td><iframe class="aspect" width=1000 height=450 src="https://www.youtube.com/embed/BuHAQE6NSPU" allowfullscreen></iframe></td>
+				<td><iframe id="F2" class="img-big" width=1600 height=450 src="https://www.youtube.com/embed/BuHAQE6NSPU" allowfullscreen></iframe></td>
 		</tr>
 	</table>
 	

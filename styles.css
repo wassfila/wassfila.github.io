@@ -160,7 +160,7 @@ Single styles
 
 .img-big { 
 	width:100%;
-	max-width: 1000px; 
+	/*max-width: 1600px; */
 	border:1px solid black;
 }
 
