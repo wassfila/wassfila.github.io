@@ -4,7 +4,7 @@ Base styles
 
 body
 {
-	margin: 0;
+	margin: 10;
 	padding: 0;
 	color: #333;
 	background-color: #eee;
@@ -162,6 +162,10 @@ Single styles
 	width:100%;
 	/*max-width: 1600px; */
 	border:1px solid black;
+}
+
+.img-big:hover { 
+	cursor: pointer;
 }
 
 .aspect {
