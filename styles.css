@@ -158,10 +158,22 @@ Nav
 Single styles
 ------------------------*/
 
+
+#cssTable td {text-align:center; vertical-align:middle;}
+
 .img-big { 
 	width:100%;
 	/*max-width: 1600px; */
 	border:1px solid black;
+}
+
+.img-tab { 
+	width:100%;
+}
+
+.img-tab-alt { 
+	width:100%;
+	max-width: 180px;
 }
 
 .img-big:hover { 
