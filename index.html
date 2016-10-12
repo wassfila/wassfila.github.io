@@ -44,35 +44,6 @@
 		<li>$5 on average per board</li>
 		<li>$5 for the development environment HW+SW, with professional grade IDE and real breakpoints debug capabilities.</li>
 	</ul>
-
-	<h2>Why a DIY IoT Framework ?</h2>
-	<table width="100%" id="cssTable">
-		<tr>
-			<td width ="50%"><h3>Advantages</h3></td>
-			<td width ="50%"><h3>Conditions</h3></td>
-		</tr>
-	</table>
-	<table width="100%">
-		<tr>
-			<td width ="50%">
-				<ul>
-					<li>You use the latest sensors technology way before they're available on commercial products</li>
-					<li>You only stick the sensors you need for lower price and longer battery life</li>
-					<li>You can experiment at any level (custom RF, custom sensors firmware)</li>
-					<li>You can experiment with 10 or 20 sensors still within an affordable budget (around 30% compared to OnTheShelves)</li>
-					<li>You can use DIY soldering equipment (Module based designs)</li>
-					<li>You learn how to do everything and from scratsh</li>
-				</ul>
-			</td>
-			<td width ="50%">
-				<ul>
-					<li>You have time and like to solder your own PCBs</li>
-					<li>You accept the prototype integration level (small size but usage of modules)</li>
-					<li>You do not have any dead lines or constrains</li>
-				</ul>
-			</td>
-		</tr>
-	</table>
 	<hr>
 	<h2 id="P1">IoT Node (RF but connected to Power)</h2>
 	<p>PCB design using the STM8S103F bread board with the nRF24L01+ module. Provides connectors for I&sup2C, UART and One wire.</p>
@@ -110,6 +81,8 @@
 	</ul>
 	<hr>
 	<h3>Commercial Sensors Tags</h3>
+	<p>It is important to compare with the OnTheShelves solutions before jumping in a DIY design.<br>
+	The STM8 has the simplicity advantage and the debug tooling low cost, but the plan is to add a high end variant with an ARM based Nordic Chips, to keep compatibility with the low cost nodes. The Ruuvi is for that the best candidate, it has also an open source business model.</p>
 	<table width="100%" id="cssTable">
 		<tr>
 			<td width="25%">	<img class="img-tab-alt" src="images/wiced.jpg"	alt="wiced">		</td>
