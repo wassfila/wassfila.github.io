@@ -1,1 +1,1 @@
-# This content is live on [wassfila.github.io](https://wassfila.github.io/)
+# Go To [Home Smart Mesh](https://www.homesmartmesh.com)
