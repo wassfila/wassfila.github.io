@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <sitemap>
-    <loc>http://wassfila.github.io/en/sitemap.xml</loc>
-    
-  </sitemap>
+  <url>
+    <loc>http://wassfila.github.io/categories/</loc>
+  </url>
   
-  <sitemap>
-    <loc>http://wassfila.github.io/fr/sitemap.xml</loc>
-    
-  </sitemap>
+  <url>
+    <loc>http://wassfila.github.io/</loc>
+  </url>
   
-  <sitemap>
-    <loc>http://wassfila.github.io/de/sitemap.xml</loc>
-    
-  </sitemap>
+  <url>
+    <loc>http://wassfila.github.io/tags/</loc>
+  </url>
   
-</sitemapindex>
+</urlset>
